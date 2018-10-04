@@ -21,20 +21,6 @@ const SearchContainer = connect(
   mapStatetoProps,
   mapDispatchToProps
 )(Search);
-    //merges obj from each to its own props
-
-// function mapStateToProps(state) {
-//   return { todos: state.todos }
-// }
-
-// function mapDispatchToProps(dispatch) {
-//   return {
-//     todoActions: bindActionCreators(todoActionCreators, dispatch),
-//     counterActions: bindActionCreators(counterActionCreators, dispatch)
-//   }
-// }
-
-// export default connect(mapStateToProps, mapDispatchToProps)(TodoApp)
 
 
 //TODO: define a SearchContainer component which will hook up your action
